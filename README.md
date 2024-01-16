@@ -14,35 +14,33 @@
 
         header {
             background-color: #333;
-            color: white;
+            color: #fff;
             text-align: center;
             padding: 1em;
         }
 
         section {
-            padding: 2em;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         h1, h2, h3 {
             color: #333;
         }
 
-        p {
-            line-height: 1.6;
-        }
-
         .project {
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 1em;
-            margin-bottom: 1em;
+            margin-bottom: 20px;
         }
 
         footer {
             background-color: #333;
-            color: white;
+            color: #fff;
             text-align: center;
-            padding: 1em;
+            padding: 1em 0;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -53,18 +51,10 @@
 
     <header>
         <h1>Your Name</h1>
-        <p>Web Developer | Designer</p>
+        <p>Web Developer</p>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Welcome to my portfolio! I am a passionate web developer and designer with a strong foundation in HTML, CSS, and JavaScript.
-            I love creating interactive and user-friendly websites that leave a lasting impression.
-        </p>
-    </section>
-
-    <section id="projects">
+    <section>
         <h2>Projects</h2>
 
         <div class="project">
@@ -76,10 +66,18 @@
             <h3>Project 2</h3>
             <p>Description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+
+        <!-- Add more projects as needed -->
+
+    </section>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget turpis vel libero efficitur sagittis.</p>
     </section>
 
     <footer>
-        <p>Contact me at: your.email@example.com</p>
+        &copy; 2024 InfoSecAnt
     </footer>
 
 </body>
